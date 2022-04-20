@@ -1,10 +1,11 @@
 <template>
   <div class="home">
-    <h1>我的年龄：{{$store.age}}</h1>
-    <!-- <h1>我的年龄：{{age}}</h1>
+    <h1>我的年龄：{{$store.state.age}}</h1>
+    <button @click="$store.state.age = 39">修改</button>
     <h1>我gg的年龄：{{$store.getters.changeAge}}</h1>
     <button @click="addAge">同步修改</button>
-    <button @click="ayAge">异步修改</button> -->
+    <button @click="ayAge">异步修改</button>
+
   </div>
 </template>
 

@@ -1,4 +1,4 @@
-# vuex-source 目录结构
+# vuex4-source 目录结构
 
 vuex 实现在 src/vuex 下
 
